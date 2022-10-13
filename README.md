@@ -24,9 +24,16 @@ Following MVVM Pattern
 
 A C# solution for managing Employees details. User must use a desktop application in (WPF) to add, edit, remove, view and search and export (CSV or Tab separated) Employee details. Employed details have been exposed through RESTful service. 
 
+Windows application:
+- Use WPF
+Language:
+C# (preferably .Net core )
+Restful Service
+
 ### Implmented functionalities include:
 - Get
 - Find (Search by name)
 - Add 
 - Delete
+
 
