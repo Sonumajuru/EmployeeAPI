@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EmployerRESTAPI",
+    "\\EmployerRESTAPI\\API",
+    "\\EmployerRESTAPI\\Controller",
+    "\\EmployerRESTAPI\\Model",
+    "\\EmployerRESTAPI\\ViewModel",
+    "\\EmployerRESTAPI\\Views"
+  ],
+  "SelectedNode": "\\EmployerRESTAPI\\Controller\\EmployeeController.cs",
+  "PreviewInSolutionExplorer": false
+}
