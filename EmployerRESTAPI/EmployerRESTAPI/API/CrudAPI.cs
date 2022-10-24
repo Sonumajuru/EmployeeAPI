@@ -80,7 +80,7 @@ namespace EmployerRESTAPI.API
             var json = JsonConvert.SerializeObject(inputData); // passing data in request body as a raw string
             var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
 
-            response = await httpClient.PostAsync(baseUrl + "users", stringContent);
+            response = await httpClient.PostAsync(baseUrl + "users/", stringContent);
             return response;
         }
 
@@ -91,7 +91,7 @@ namespace EmployerRESTAPI.API
         /// <returns></returns>
         public async Task<HttpResponseMessage> DeleteById(int id)
         {
-            response = await httpClient.DeleteAsync(baseUrl + "users" + id);
+            response = await httpClient.DeleteAsync(baseUrl + "users/" + id);
             return response;
         }
     }

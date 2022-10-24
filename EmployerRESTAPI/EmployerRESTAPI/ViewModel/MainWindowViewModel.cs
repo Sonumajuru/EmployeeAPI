@@ -210,11 +210,7 @@ namespace EmployerRESTAPI.ViewModel
             }
             else if (response.StatusCode == HttpStatusCode.Unauthorized)
             {
-                throw new UnauthorizedAccessException();
-            }
-            else
-            {
-                DisplayMessage = "Employee " + employee.ID + " not found";
+                DisplayMessage = "Delete " + employee.ID + " Unauthorized action";
             }
         }
         #endregion
